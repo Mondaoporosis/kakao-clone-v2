@@ -34,4 +34,9 @@
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  transition: transform 0.4s ease;
+}
+
+.nav__list-item:nth-child(2):hover .nav__badge {
+  transform: rotateX(1turn) scale(1.5);
 }
